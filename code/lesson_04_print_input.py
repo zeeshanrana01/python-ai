@@ -8,7 +8,7 @@ name = input("Enter your name: ")
 business = input("Enter your business type: ")
 problem = input("Enter one problem your business faces: ")
 
-# A budget helps the AI suggest solutions that are realistic for the business.
+# A budget helps the AI suggest solutions that are realistic for the business..
 budget = int(input("Enter your monthly budget in PKR: "))
 
 print(f"Welcome, {name}! Let's create an AI prompt for your business.")
