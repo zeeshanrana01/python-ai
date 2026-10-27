@@ -39,7 +39,6 @@ from langchain.chat_models import init_chat_model
 
 """Make the first AI tutor call and display token usage and response time."""
 
-import time
 
 from langchain.chat_models import init_chat_model
 
@@ -63,10 +62,10 @@ Keep the answer concise and focused.
 # Why: A low temperature makes the tutor's answers more consistent and focused.
 tutor = init_chat_model(
     "ollama:llama3.2",
-    temperature=0.3,
+    temperature=0.2,
 )
 
-start_time = time.perf_counter()
+
 
 response = tutor.invoke(
     [
@@ -75,7 +74,7 @@ response = tutor.invoke(
     ]
 )
 
-elapsed = time.perf_counter() - start_time
+
 
 print("=" * 40)
 print(response.text)
