@@ -1,0 +1,15 @@
+
+{
+  "business_name": "Sweet Crumbs",
+  "business_type": "Bakery",
+  "currency": "PKR",
+  "delivery_policy": "Delivery is free for orders over 3,000 PKR.",
+  "opening_hours": "Monday to Saturday, 9 AM to 8 PM",
+  "address": "Lahore, Pakistan",
+  "prices": {
+    "chocolate cake": 1500,
+    "cupcake": 250,
+    "brownie": 300,
+    "donut": 200
+  }
+}
